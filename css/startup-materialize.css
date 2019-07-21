@@ -11964,7 +11964,7 @@ nav.navbar ul a:hover {
 .btn-floating {
   position: relative;
   overflow: hidden;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.42);
   box-shadow: none;
   border: 2px solid #eee;
   box-sizing: content-box;
@@ -12084,7 +12084,7 @@ nav.btn-floating.navbar.solid:focus {
 }
 
 .btn-floating {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.42);
   box-shadow: none;
   border: 2px solid #eee;
 }
@@ -12308,4 +12308,18 @@ textarea.materialize-textarea + label {
   .header .header-wrapper h1 {
     font-size: 4rem;
   }
+}
+
+.ins {
+  background-color: #d2d8d6; 
+  background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%); 
+  padding: .15em; margin-bottom: 15px; 
+  border-width: .25em; 
+  border-style: solid; border-color: whitesmoke; 
+  color:black;
+}
+.ins:hover {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #2D3436  74%);
+  color: whitesmoke;
 }

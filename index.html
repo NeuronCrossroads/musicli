@@ -16,104 +16,154 @@
 
 <body>
 
-    <div class="grey" style="height:50%">
+    <div class="grey" style="height: 60%">
 
     </div>
 
-    <div class="" style="height: 50%; background: linear-gradient(180deg, #DB302A 0%, #62186B 100%) no-repeat;">
+    <div class="" style="height: 40%; background: linear-gradient(180deg, grey 0%, black 100%) no-repeat;">
 
         <div class="" style="padding: 1em;">
             <br>
-            <a href="#!" class="btn"><i class="material-icons left">settings</i>Home</a>
-            <a href="#!" class="btn" onclick="instumentsFunction()"><i
-                    class="material-icons left">settings</i>Instruments</a>
-            <a href="#!" class="btn right"><i class="material-icons right">settings</i>Final Music</a>
+            <div class="row">
+                <div class="col m4">
+                    <a href="#!" class="btn"><i class="material-icons left">home</i>Home</a>
+                    <a href="#!" class="btn" onclick="instumentsFunction()"><i class="material-icons left">menu</i>Instruments</a>
+                </div>
+                <div class="col m4 center-align">
+                    <a href="#!" class="btn"><i class="material-icons right">replay</i>Begining</a>
+                    <a href="#!" class="btn-floating"><i class="material-icons">arrow_back</i></a>
+                    <a href="#!" class="btn-floating"><i class="material-icons">play_arrow</i></a>
+                    <a href="#!" class="btn-floating"><i class="material-icons">arrow_forward</i></a>
+                </div>
+                <div class="col m4">
+                    <a href="#!" class="btn right"><i class="material-icons right">send</i>Finish</a>
+                </div>
+                
+                
+            </div>
         </div>
 
 
-        <div class="row" id="instruments" style="padding: 1em;">
+        <div class="row center-align" id="instruments">
 
             <div class="col m4" id="pian" onclick="piano()">
-                <div class="blue hoverable center-align"
-                    style="padding: .15em;margin-bottom: 1em; border-width: .25em; border-style: solid; border-color: #37474f; color:#37474f">
-                    <h2>Piano</h2>
+                <div class="ins hoverable center-align">
+                    <h4>Piano</h4>
                 </div>
             </div>
 
             <div class="col m4">
-                <div class="blue hoverable center-align"
-                    style="padding: .15em;margin-bottom: 1em; border-width: .25em; border-style: solid; border-color: #37474f; color:#37474f"">
-                    <h2>Piano</h2>
+                <div class="ins hoverable center-align">
+                    <h4>Piano</h4>
+                </div>
+            </div>
+
+            <div class="col m4">
+                <div class="ins hoverable center-align">
+                    <h4>Piano</h4>
                 </div>
             </div>
 
             <div class=" col m4">
-                <div class="blue hoverable center-align"
-                    style="padding: .15em;margin-bottom: 1em; border-width: .25em; border-style: solid; border-color: #37474f; color:#37474f"">
-                    <h2>Piano</h2>
+                <div class="ins hoverable center-align">
+                    <h4>Piano</h4>
                 </div>
             </div>
 
             <div class=" col m4">
-                <div class="blue hoverable center-align"
-                        style="padding: .15em;margin-bottom: 1em; border-width: .25em; border-style: solid; border-color: #37474f; color:#37474f"">
-                    <h2>Piano</h2>
+                <div class="ins hoverable center-align">
+                    <h4>Piano</h4>
                 </div>
             </div>
 
             <div class=" col m4">
-                <div class="blue hoverable center-align"
-                        style="padding: .15em;margin-bottom: 1em; border-width: .25em; border-style: solid; border-color: #37474f; color:#37474f"">
-                    <h2>Piano</h2>
+                <div class="ins hoverable center-align">
+                    <h4>Piano</h4>
                 </div>
-            </div>
-
-            <div class=" col m4">
-                <div class="blue hoverable center-align"
-                    style="padding: .15em;margin-bottom: 1em; border-width: .25em; border-style: solid; border-color: #37474f; color:#37474f"">
-                <h2>Piano</h2>
-            </div>
             </div>
         </div>
 
-        <div class="row" style="padding: 1em" id="instrument">
+        <div class="row" id="instrument">
+                    <div class="col m6">
+                        <div class="row">
+                            <div class="col s2"></div>
+                            <div class="col s10 left-align" style="padding-bottom: 1em;">
+                                <h4>NOTES</h4>
+                            </div>
+                            <div class="col s12" style="padding: .25em;">
+                                <a href="#!" class="btn" style="height: 5em;" onclick="C4()"><h4>C4</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="D4()"><h4>D4</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="E4()"><h4>E4</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="F4()"><h4>F4</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="G4()"><h4>G4</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="A4()"><h4>A4</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="B4()"><h4>B4</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="C5()"><h4>C5</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="D5()"><h4>D5</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="E5()"><h4>E5</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="F5()"><h4>F5</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="G5()"><h4>G5</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="A5()"><h4>A5</h4></a>
+                                <a href="#!" class="btn" style="height: 5em;" onclick="B5()"><h4>B5</h4></a>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="col m1">
-                <div class="blue hoverable center-align"
-                    style="margin-bottom: 1em; border-width: .25em; border-style: solid; border-color: #37474f; color:#fff"">
-                    <h2>A</h2>
-                </div>
-            </div>
-            
-            <div class="col m8" style="">
-                    
-                            <p class="range-field">
-                              <input type="range" id="test5" min="0" max="100" />
-                            </p>
-                          
-            </div>
-        
-        </div>
+                    <div class="col m6">
+                        <div class="row">
+                            <div class="col m3 center-align valign-wrapper">
+                                <h4>NOTE SIZE:</h4>
+                            </div>
+                            <div class="col m3">
+                                <div class="row">
+                                    <div class="col m6" style="padding-bottom:1em;">
+                                        <a href="#!" class="btn" style="height: 5em; width: 70%" onclick="oneEight()"><h4>1/8</h4></a>
+                                    </div>
+                                    <div class="col m6"  style="padding-bottom:1em;">
+                                        <a href="#!" class="btn" style="height: 5em; width: 70%" onclick="oneFour()"><h4>1/4</h4></a>
+                                    </div>
+                                    <div class="col m6">
+                                        <a href="#!" class="btn" style="height: 5em; width: 70%" onclick="oneTwo()"><h4>1/2</h4></a>
+                                    </div>
+                                    <div class="col m6">
+                                        <a href="#!" class="btn" style="height: 5em; width: 70%" onclick="one()"><h4>1</h4></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col m6">
+                                <div class="row" style="padding-left: 2.5em;">
+                                    <div class="col s12 valign-wrapper center-align">
+                                        <h4>Current Note: <span id="currentNote" style="background-color: #FFFF00; color:black;"></span></h4>
+                                    </div>
+                                    <div class="col s12 valign-wrapper center-align">
+                                        <h4>Current Note Size: <span id="currentNoteSize" style="background-color: #FFFF00; color:black;"></span></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+         </div>
 
 
 
-    <!-- Scripts -->
-    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script> <script
-                                                src="js/materialize.min.js">
-                                                </script>
-                                                <script src="js/instrument.js"></script>
+                                    <!-- Scripts -->
+                                    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+                                    </script>
+                                    <script src="js/materialize.min.js"></script>
+                                    <script src="js/instrument.js"></script>
 
-                                                <!-- External libraries -->
-                                                <script src="js/imagesloaded.pkgd.min.js"></script>
-                                                <script src="js/masonry.pkgd.min.js"></script>
-                                                <script src="js/TweenMax.min.js"></script>
-                                                <script src="js/ScrollMagic.min.js"></script>
-                                                <script src="js/animation.gsap.min.js"></script>
+                                    <!-- External libraries -->
+                                    <script src="js/imagesloaded.pkgd.min.js"></script>
+                                    <script src="js/masonry.pkgd.min.js"></script>
+                                    <script src="js/TweenMax.min.js"></script>
+                                    <script src="js/ScrollMagic.min.js"></script>
+                                    <script src="js/animation.gsap.min.js"></script>
 
-                                                <!-- Initialization script -->
-                                                <script src="js/startup.js"></script>
-                                                <script src="js/init.js"></script>
-                                               
+                                    <!-- Initialization script -->
+                                    <script src="js/startup.js"></script>
+                                    <script src="js/init.js"></script>
+
 </body>
 
 </html>
